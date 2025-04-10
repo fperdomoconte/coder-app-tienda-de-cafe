@@ -1,11 +1,13 @@
 import { Badge } from "react-bootstrap"
-import { BsCart4 } from "react-icons/bs"
+import { AiOutlineShoppingCart } from "react-icons/ai";
+/* import { BsCart4 } from "react-icons/bs" */
 
 const CartWidgetReactIcons = () => {
     return(
         <div>
             <Badge bg="danger">0</Badge>
-            <BsCart4 fontSize={'3rem'} />
+            <AiOutlineShoppingCart fontSize={'3rem'} />
+           {/*  <BsCart4 fontSize={'3rem'} /> */}
         </div>
     )
 }
