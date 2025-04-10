@@ -1,4 +1,3 @@
-
 import { Badge } from "react-bootstrap"
 import { BsCart4 } from "react-icons/bs"
 
